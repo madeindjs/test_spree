@@ -1,24 +1,18 @@
-# README
+# Test Spree
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A poor aptempt to install & customize Spree
 
-Things you may want to cover:
+## What did you done?
 
-* Ruby version
+Install Spree
 
-* System dependencies
+~~~bash
+$ bundle add spree
+$ bundle add spree_auth_devise
+$ bundle add spree_gateway
+$ rails g spree:install
+~~~
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How run it?
